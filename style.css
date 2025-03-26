@@ -1,0 +1,32 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.calUI {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-color: green;
+}
+
+#display {
+    color: green;
+    padding: 8px;
+    font-size: 2em;
+}
+
+.calPad {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.calPad button {
+    padding: 8px;
+    font-size: 2em;
+}
